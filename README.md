@@ -60,6 +60,11 @@ Select the KV database you just created.
 
 
 5. Pull environment variables:
+
+- Open `.env.local` and update the values:
+- `KV_REST_API_URL` and `KV_REST_API_TOKEN` will be automatically filled by the `vercel env pull` command.
+- Set `KV_NAMESPACE` to a unique identifier for your project (e.g., "myproject").
+
 After setting up KV, you need to pull the environment variables to your local development environment:
 ```bash
 vercel env pull .env.local
