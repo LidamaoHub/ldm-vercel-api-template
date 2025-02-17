@@ -7,8 +7,9 @@
     "deploy": "vercel deploy --prod"
   },
   "dependencies": {
-    "@vercel/kv": "^3.0.0",
-    "dotenv": "^16.0.3"
+   "@vercel/kv": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "node-fetch": "2"
   },
   "license": "ISC"
 }
